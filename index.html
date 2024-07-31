@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+
+    <style>
+        canvas {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #56009c; display: flex;">
+    <img id="water" src="imgs/water.png" alt="" style="display: none;">
+    <img id="stone" src="imgs/stone.png" alt="" style="display: none;">
+    <img id="dirt" src="imgs/dirt.png" alt="" style="display: none;">
+    <img id="grass" src="imgs/grass.png" alt="" style="display: none;">
+
+    <canvas id="canvas" width="1000" height="650"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>
